@@ -24,7 +24,7 @@ version = 1.0.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,opencv,numpy,pillow
+requirements = python3,kivy,pillow
 
 # (str) Supported orientation (landscape, portrait or all)
 orientation = portrait
@@ -45,7 +45,7 @@ android.permissions = INTERNET,CAMERA,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORA
 android.api = 31
 
 # (int) Minimum API your APK will support.
-android.minapi = 21
+android.minapi = 24
 
 # (int) Android SDK version to use
 android.sdk = 31
